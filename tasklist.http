@@ -12,22 +12,22 @@ POST http://localhost:5187/tasks/
 Content-Type: application/json
 
 {
-  "title": "skibidi",
-  "description": "Dodaj ludzi i u nich liste\n zadan ktora sie bedzie wyswietlac\n wtedy robimy logowanie i autoryzacje po czym front end.",
+  "title": "quendi api",
+  "description": "zrobic api dla quendiego",
   "iscompleted": false
 
 }
 ###
-PUT http://localhost:5187/tasks/2
+PUT http://localhost:5187/tasks/9
 Content-Type: application/json
 
 {
-  "title": "skibidi",
-  "description": "Lecimy na skibidisigmoze",
-  "iscompleted": false
+  "title": "quendi api",
+  "description": "zrobic api dla quendiego",
+  "iscompleted": true
 }
 ###
 //DELETE
-DELETE http://localhost:5187/tasks/2
+DELETE http://localhost:5187/tasks/9
 
 ###
